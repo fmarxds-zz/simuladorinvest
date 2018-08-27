@@ -15,8 +15,9 @@
 				<artifactId>maven-ear-plugin</artifactId>
 				<version>3.0.1</version>
 				<configuration>
-					<applicationXml>${basedir}/src/resources/META-INF/application.xml</applicationXml>
-					<earSourceDirectory>${basedir}/src/resources</earSourceDirectory>
+<!-- 					<generateApplicationXml>true</generateApplicationXml> -->
+<!-- 					<applicationXml>${basedir}/src/resources/META-INF/application.xml</applicationXml> -->
+<!-- 					<earSourceDirectory>${basedir}/src/resources</earSourceDirectory> -->
 					<modules>
 						<webModule>
 							<groupId>com.everis.beca</groupId>
